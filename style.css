@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+  background: radial-gradient(#fff,#ffd6d6);
     font-family: 'Space Mono', monospace;
   }
   
@@ -67,6 +67,6 @@ border-radius: 30px;
 .header{
   background: radial-gradient(#fff,#ffd6d6);
 }
-.header .row{
+.header row{
   margin-top: 70px;
 }
