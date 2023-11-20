@@ -32,7 +32,7 @@ p{
 
 .container{
   max-width: 1300px;
-  margin: auto;
+  margin:auto;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -54,7 +54,7 @@ p{
 .col-2 h1{
   font-size: 50px;
   line-height: 60px;
-  margin: 25px 0;
+  margin: 25px 0px;
 }
 .btn{
   display: inline-block;
@@ -63,10 +63,26 @@ padding: 8px 30px;
 border-radius: 30px;
 
 }
-
 .header{
   background: radial-gradient(#fff,#ffd6d6);
 }
 .header row{
   margin-top: 70px;
+}
+.categories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
