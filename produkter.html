@@ -3,21 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <title>Ballfootshirts Produkter</title>
+        <link href="style.css" rel="stylesheet" type="text/css"
+        font-family: 'Space Mono', monospace;
     </head>
 
     <body>
-    
-        <header style="background-color:gray; font-size: 35px;">
-            <h1><div style="color:white; font-size: 50px;">Ballfootshirts</div></h1>
-            <hr>
-            <a href="" style="border-style: solid; border-color: black; color: white;">Home</a>
-            <a href="" style="border-style: solid; border-color: black; color: white;">Produkter</a>
-           <a href="" style="border-style: solid; border-color: black; color: white;">Om oss</a> 
-        <hr>   
+   
+        <header>
+            <div class="header">
+            <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <img src="https://www.creativefabrica.com/wp-content/uploads/2019/02/Monogram-CC-Logo-by-Greenlines-Studios.jpg" alt="Logo" width="100">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="landingpage.html">Hem</a></li>
+                       
+                        <li><a href="produkter.html">Produkter</a></li>
+                        
+                   
+                        <li><a href="kontakt.html">Kontakta oss</a></li>
+                        <li><a href="Om oss.html">Om oss</a></li>
+                    </ul>
+                </nav>
+            </div>
+                </div>
+
+            </div>
+           
         </header>
     
         <main>
-            
+            <div class="sortbuttons">
             <label for="sortera">sortera</label>
                 <select id="sortera">
                     <option value="Stigande">Stigande</option>
@@ -30,32 +49,25 @@
                     <option value="Danmark">Danmark</option>
                     <option value="Norge">Norge</option>
                 </select>
+            </div>
 
-        <label for="Storlek">Storlek</label>
-                <select id="Storlek">           
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                </select>
-
-        <table border="5">
-            <tr align="center">
-                <th> <img src="images/sverige.png" alt="Sverige landslagströja" height="300"></th>
-                <th> <img src="images/sverige.png" alt="" height="300"></th>
-                <th> <img src="images/sverige.png" alt="" height="300"></th>
-            </tr>
-            <tr align="center">
-                <td style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">Sverige Landslagströja 599 KR</td>
-                <td></td>
-                <td></td><hr>
-            </tr>
-            
-        </table>¨
+            <table class="products" id="products">
+                <tr>
+                    <td> </td>
+                </tr>
+             
+            <tbody id="myTable"></tbody>
+            </table>
+            <script src="index.js"></script>
         
+        <div id="kontaktaoss">
+            <p style="color: white;">Kontakta oss</p>
+
+        </div>
 
         </main>
 
-        <footer style="background-color: gray;">
+        <footer style="background-color: gray; height: 100vh;">
             <hr>
             Skapare: <br>Carl Britsmar <br> Ceasar Carlsson <br>
             <small><a href="mailto:carl.britsmar@omegle.com">carl@britsmar.omegle.com</a>

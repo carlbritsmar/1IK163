@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+  background: radial-gradient(#fff,#ffd6d6);
     font-family: 'Space Mono', monospace;
   }
   
@@ -9,6 +9,9 @@ body {
     display: flex;
     padding: 20px;
     
+  }
+  nav ul li:hover{
+    border: solid; 
   }
   nav{
     flex: 1;
@@ -67,6 +70,20 @@ border-radius: 30px;
 .header{
   background: radial-gradient(#fff,#ffd6d6);
 }
-.header .row{
+.header row{
   margin-top: 70px;
+}
+#kontaktaoss{
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  right: 25px;
+  bottom: 0px;
+  border-radius: 8px;
+  text-align: center;
+}
+#kontaktaoss:hover{
+  height: 60px;
+  width: 130px;
 }
