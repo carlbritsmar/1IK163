@@ -38,9 +38,9 @@
         <main>
             <div class="sortbuttons">
             <label for="sortera">sortera</label>
-                <select id="sortera">
+                <select id="sortera" onchange="sortTable(this)">
                     <option value="Stigande">Stigande</option>
-                    <option value="Lutande">Lutande</option>
+                    <option value="lutande">Lutande</option>
                 </select> 
 
             <label for="filtrera">filtrera</label>
@@ -61,7 +61,7 @@
             <script src="index.js"></script>
         
         <div id="kontaktaoss">
-            <p style="color: white;">Kontakta oss</p>
+            <p style="color: white;"><button onclick="scrollToBottom()">Kontakta oss</button></p>
 
         </div>
 
