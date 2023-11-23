@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>login or register!</title>
     <script src="index.js"></script>
-    <link href="test.css" rel="stylesheet" type="text/css"
+    <link href="style.css" rel="stylesheet" type="text/css"
     <script src="https://kit.fontawesome.com/6ff35d474c.js" crossorigin="anonymous"></script>
 </head>
 <body>
