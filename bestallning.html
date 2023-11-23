@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Beställning lyckades!</title>
+    <script src="index.js"></script>
+
 </head>
 <body>
 
 
-<form action="sucess.html" method="get">
-        <label for="name">Name</label>
+<form id="form" action="sucess.html" method="get">
+    <label for="username">Username</label>
+    <input name="username" id ="inputUserName" type="text" required>
+    <label for="password">Password</label>    
+    <input name="password" id ="inputPassWord" type="password" required minlength="8" pattern="()">
+    
+
+    <label for="name">Name</label>
         <input name="name" id ="name" type="text" required>
         <label for="email">Email</label>
         <input email="email" id="email"
                type="email" required
                placeholder="me@example.com">
+               
 <button type ="Submit">Sign up</button>
     </form>
 </body>
