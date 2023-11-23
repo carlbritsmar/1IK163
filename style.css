@@ -180,3 +180,17 @@ input{
   background: #eaeaea;
   color: #555;
 }
+#kontaktaoss{
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  right: 25px;
+  bottom: 0px;
+  border-radius: 8px;
+  text-align: center;
+}
+#kontaktaoss:hover{
+  height: 60px;
+  width: 130px;
+}
