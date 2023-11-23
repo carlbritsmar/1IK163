@@ -1,89 +1,83 @@
-body {
-  background: radial-gradient(#fff,#ffd6d6);
-    font-family: 'Space Mono', monospace;
-  }
-  
-   .navbar{
-    color: black;
-    align-items: center;
-    display: flex;
-    padding: 20px;
-    
-  }
-  nav ul li:hover{
-    border: solid; 
-  }
-  nav{
-    flex: 1;
-    text-align: right;
-  }
-  nav ul{
-    display: inline-block;
-    list-style-type: none;
-  }
-  nav ul li{
-display: inline-block;  
-margin-right: 20px
+.containerlogin{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
-a{
-  text-decoration: none;
-  color: #555;;
+.form-box{
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: center;
+  border-radius: 25px;
 }
-p{
-  color: #555;
+.form-box h1{
+  font-size: 30px;
+  margin-bottom: 60px;
+  position: relative;
 }
 
-.container{
-  max-width: 1300px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+.form-box h1::after{
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #ff523b;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.row{
+.input-field{
+  background-color: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px, 15px;
+}
 
+.input-field i{
+  margin-left: 15px;
+  color: #999;
 }
-.col-2{
-  flex-basis: 50%;
-  min-width: 300px;
+
+.btn-field{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.col-2 img{
-  max-width: 100%;
-  padding: 60px 0;
-} 
-.col-2 h1{
-  font-size: 50px;
-  line-height: 60px;
-  margin: 25px 0;
-}
-.btn{
-  display: inline-block;
+.btn-field button{
+  flex-basis: 48%;
   background: #ff523b;
-padding: 8px 30px;
-border-radius: 30px;
-
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
 }
 
-.header{
-  background: radial-gradient(#fff,#ffd6d6);
+.input-group{
+  height: 280px;
 }
-.header row{
-  margin-top: 70px;
-}
-#kontaktaoss{
-  width: 120px;
-  height: 50px;
-  background-color: black;
-  position: fixed;
-  right: 25px;
-  bottom: 0px;
-  border-radius: 8px;
-  text-align: center;
-}
-#kontaktaoss:hover{
-  height: 60px;
-  width: 130px;
+.btn-field button.disable{
+  background: #eaeaea;
+  color: #555;
 }
