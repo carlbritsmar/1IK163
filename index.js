@@ -57,4 +57,23 @@ for (let i = 0; i < produkter.length; i+=4){
    function buyButton(index){
     window.location.href='bestallning.html'
    }
+   
+   function scrollToBottom (){
+    let height = document.body.scrollHeight;
+    window.scroll(0 , height)
+   }
+   function sortTable(obj){
     
+    if(obj.value == 'lutande'){
+        produkter.sort(comparatorDescending)
+        buildProductTable(produkter)
+    }
+    else if(obj == 'Stigande'){
+
+    }
+   }
+   function comparatorDescending(a,b) {
+    produkter.sort(parseFloat(b.pris) - parseFloat(a.pris))
+   }
+   
+   
