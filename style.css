@@ -88,11 +88,12 @@ border-radius: 30px;
   padding-right: 25px;
 }
 .footer{
-  max-width: 1080px;
+  max-width: auto;
   margin: 700px, 700px;
+  background-color: white;
+  display:
 }
 .col-4{
-  
 max-width: 250px;
 margin: 10px;
 padding: 25px;
