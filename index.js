@@ -14,15 +14,15 @@ const produkter = [
     new Produkt('Iceland shirt', 799, 'images/fotbollisland.jpg'), 
     new Produkt('Norway shirt', 599, 'images/fotbollnorge.jpg'), 
     new Produkt('Germany shirt', 299, 'images/fotbolltyskland.jpg'),
-    new Produkt('Kosovo shirt', 399, 'images/fotbollkosovo.jpg'),
+    new Produkt('Kosovo shirt', 899, 'images/fotbollkosovo.jpg'),
     new Produkt('Bosnia shirt', 199, 'images/fotbollbosnia.jpg'),
-    new Produkt('Serbia shirt', 799, 'images/fotbollserbia.jpg'), 
+    new Produkt('Serbia shirt', 99, 'images/fotbollserbia.jpg'), 
     new Produkt('Poland shirt', 599, 'images/fotbollpoland.jpg'), 
     new Produkt('Ireland shirt', 299, 'images/fotbollirland.jpg'),
     new Produkt('England shirt', 399, 'images/fotbollengland.jpg'),
     new Produkt('Spain shirt', 199, 'images/fotbollspanien.jpg'),
     new Produkt('Italy shirt', 799, 'images/fotbollitalia.jpg'), 
-    new Produkt('Denmark shirt', 799, 'images/fotbolldanmark.jpg'), ];
+    new Produkt('Albania shirt', 799, 'images/albanien.jpg'), ];
 
 
     function removeTable(){

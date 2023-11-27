@@ -90,8 +90,9 @@ border-radius: 30px;
 .footer{
   max-width: auto;
   margin: 700px, 700px;
-  background-color: grey;
-  display:
+  background:radial-gradient(#fff, rgb(221, 189, 214))
+  
+  
 }
 .col-4{
 max-width: 250px;
@@ -239,4 +240,13 @@ input{
 }
 #sortbuttons button:hover{
   color: #000; background: radial-gradient(#fff,#ffd6d6); 
+}
+
+.omOss h1 h2{
+  color: black;
+  
+}
+.omOss p{
+  color: black;
+  
 }
