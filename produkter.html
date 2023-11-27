@@ -36,32 +36,26 @@
         </header>
     
         <main>
-            <div class="sortbuttons">
-            <label for="sortera">sortera</label>
-                <select id="sortera" onchange="sortTable(this)">
-                    <option value="Stigande">Stigande</option>
-                    <option value="lutande">Lutande</option>
-                </select> 
+            <div id="sortbuttons">
+        
+                <button id="sortDesc">Descending order</button>
+                <button id="sortAsc">Ascending order</button>
 
-            <label for="filtrera">filtrera</label>
-                <select id="filtrera">
-                    <option value="Sverige">Sverige</option>
-                    <option value="Danmark">Danmark</option>
-                    <option value="Norge">Norge</option>
-                </select>
+           
             </div>
-
+            <div id="productTable">
             <table class="products" id="products">
                 <tr>
-                    <td> </td>
+                    
                 </tr>
              
             <tbody id="myTable"></tbody>
             </table>
+        </div>
             <script src="index.js"></script>
         
         <div id="kontaktaoss">
-            <p style="color: white;"><button onclick="scrollToBottom()">Kontakta oss</button></p>
+            <button id="kontaktaoss" style="background-color: black; color: white;" onclick="scrollToBottom()">Kontakta oss</button>
 
         </div>
 

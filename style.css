@@ -86,4 +86,49 @@ border-radius: 30px;
 #kontaktaoss:hover{
   height: 60px;
   width: 130px;
+  cursor: pointer;
+}
+/*för produkter*/
+#products{
+  display: grid;
+  grid-template-columns: repeat(4 , 220);
+  justify-items: center;
+  margin-top: 30px;
+  
+  
+  
+}
+#product{
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  
+}
+#description{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+#sortbuttons {
+  text-align: center;
+}
+#sortbuttons button{
+  
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  background: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 12px 20px;
+  text-align:center;
+}
+#sortbuttons button:hover{
+  color: #000; background: radial-gradient(#fff,#ffd6d6); 
 }
