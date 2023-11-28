@@ -75,7 +75,18 @@ for (let i = 0; i < tempArray.length; i+=4){
    }
    document.getElementById("sortDesc").addEventListener("click", comparatorDescending)
    document.getElementById("sortAsc").addEventListener("click", comparatorAscending)
-  
+
+  function checkPassword(){
+    let p = document.getElementById("password1");
+    let specialCount;
+    let numberCount;
+    let bigLetterCount;
+
+    window.location.href='landingpage.html'
+    for(let i = 0; i < p.length; i++){
+        
+    }
+  }
   
    buildProductTable(produkter)
    
