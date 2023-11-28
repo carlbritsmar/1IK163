@@ -80,10 +80,7 @@ for (let i = 0; i < tempArray.length; i+=4){
    
    buildProductTable(produkter)
    
-   let specialCount = 0;
-    let numberCount = 0;
-    let bigLetterCount = 0;
-    let smallLetterCount = 0;
+  
    function checkPassword(){
     const p = document.getElementById("password1").value.trim();
     let specialCount = 0;
