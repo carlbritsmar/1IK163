@@ -77,31 +77,37 @@ for (let i = 0; i < tempArray.length; i+=4){
    document.getElementById("sortAsc").addEventListener("click", comparatorAscending)
 
   function checkPassword(){
-    let p = document.getElementById("password1");
-    let specialCount;
-    let numberCount;
-    let bigLetterCount;
-
-    window.location.href='landingpage.html'
-    for(let i = 0; i < p.length; i++){
+    let p = document.getElementById("password1".trim());
+    
+    let specialCount = 0;
+    let numberCount = 0;
+    let bigLetterCount = 0;
+    let smallLetterCount = 0;
+    
+    
+    for(let i = 0; i < p.length - 1; i++){
+        if(p[i] >= 'A' && p[i] <= 'Z' ){
+            bigLetterCount++;
+        }
+        else if (p[i] >= "0" && p[i]<= "9"){
+            numberCount++;
+        }
+        else if (p[i] >= 'a' && p[i] <= 'z'){
+            smallLetterCount++;
+        }
+        else {
+            specialCount++;
+        }
         
     }
-  }
+    if (bigLetterCount >= 2 && numberCount >= 1 && specialCount >= 1){
+        window.location.href='landingpage.html'
+    }
+    else{
+        
+    }
+}
   
-   buildProductTable(produkter)
-   
-   const namefield = document.getElementById('namefield');
-   const email = document.getElementById('email');
-   const password = document.getElementById('password');
-   
-   form.addEventListener('Register', (e)=>{
-       e.preventDefault();
-    
-       checkInputs();
-   }}
+   buildProductTable(produkter);
 
-   function checkInputs(){
-   const usernameValue = namefield.value.trim();
-    const emailValue = email.value.trim();
-   const passwordValue = password.value();
-   }
+ 
