@@ -79,4 +79,18 @@ for (let i = 0; i < tempArray.length; i+=4){
   
    buildProductTable(produkter)
    
-  
+   const namefield = document.getElementById('namefield');
+   const email = document.getElementById('email');
+   const password = document.getElementById('password');
+   
+   form.addEventListener('Register', (e)=>{
+       e.preventDefault();
+    
+       checkInputs();
+   }}
+
+   function checkInputs(){
+   const usernameValue = namefield.value.trim();
+    const emailValue = email.value.trim();
+   const passwordValue = password.value();
+   }

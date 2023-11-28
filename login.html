@@ -37,11 +37,11 @@
                     <i class="fa-solid fa-user"></i>
                     <input type="text" placeholder="Name">
                 </div>
-                <div class="input-field">
+                <div class="input-field" id ="email">
                     <i class="fa-solid fa-user"></i>
                     <input type="email" placeholder="me@example.com">
                 </div>
-                <div class="input-field">
+                <div class="input-field" id ="password">
                     <i class="fa-solid fa-user"></i>
                     <input type="password" placeholder="Password">
                 </div>
@@ -76,7 +76,14 @@
             registerbtn.classList.remove("disable");
             signinbtn.classList.add("disable");
         }
+const a = document.getElementById('form-box');
+const namefield = document.getElementById('namefield');
+const email = document.getElementById('email');
+const password = document.getElementById('password');
 
+form.addEventListener('Register', (e)=>{
+    e.preventDefault();
+}
     </script>
 </body>
 </html>
