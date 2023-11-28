@@ -88,7 +88,7 @@ border-radius: 30px;
   padding-right: 25px;
 }
 .footer{
-  max-width: auto;
+  width: 100%;
   margin: 700px, 700px;
   background: radial-gradient(#ffd6d6, #ffaaa5);
   list-style-type: none;
